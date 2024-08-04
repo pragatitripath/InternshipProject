@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d5c0c0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #422626;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(249, 245, 245);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(233, 227, 227);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="PragatiFormalPhoto.jpg" alt="Pragati">
+        <h1>Pragati Tripathi</h1>
+        <p>Myself Pragati, I am 22 year old. my brthdate is: 03/01/2003. I done my Schooling from my Hometown(Beohari). And for gradution I came away from my home. I done my Graduation from Jabalpur now currenlty pursuing my Post Graduation From DAVV Indore.   </p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am from Rewa and Student of SCS&IT in Devi ahilaya Vishwavidhyala Indore. Currently Pursuing Master of Computer Application. I had Completed my Graduation from Rani Durgawati Vishwavidhyala Jabalpur. Coming to My skills, my skills are FrontEnd Developer(HTML , CSS) and BackEnd Developer(Java , DBMS(Oracle SQL)) , Python. And My soft Skills are MicroSoft Office(Excel , PowerPoint , Word). I also work as an Intern in Future Intern where I learned or Practice in Web Development.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>E-commerce Website</h3>
+            <a href="#https://github.com/pragatitripath/e-commerce-website/commit/b20f9ed2e9e6314af236406b0b3c59c5604becb2">E-Commerce Website</a>
+            <p>This project is done by using FrontEnd Skills(HTML,CSS,JavaScript). E-commerce website is for searching daily needs Activity which was neccessary. </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="tripathi2003pragati@gmail.com">pragatiemail@example.com</a></p>
+        <p>Phone: 9301256072</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <img src="PragatiResume.pdf" alt="Resume">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pragati tripathi</p>
+    </footer>
+    
+</body>
+</html>
